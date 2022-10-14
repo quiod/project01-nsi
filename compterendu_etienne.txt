@@ -1,0 +1,10 @@
+installation de git
+affichage d'une image de base a gauche de l'écran
+cherche sur internet
+solution=tkinters
+reussi
+basic command
+placer bien l'image
+soluce=side
+reidmentionner l'image:bibliotèque PIL
+probleme de redimention
