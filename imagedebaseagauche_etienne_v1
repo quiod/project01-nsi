@@ -1,18 +1,18 @@
 from tkinter import *
 from PIL import Image, ImageTk
- 
+
 root = Tk()
 root.title("editeur photo")
 root.geometry("1080x720")
 
-image = Image.open("C:/Users/etien/project01-nsi/code/th.png")
+image = Image.open("emplacemnt de la photo, en png de préférence")
 
-resize_image = image.resize((500,int((500/image.size[0])*image.size[1])))
- 
+resize_image = image.resize((540,int((540/image.size[0])*image.size[1])))
+
 img = ImageTk.PhotoImage(resize_image)
- 
+
 label1 = Label(image=img)
 label1.image = img
- 
+
 label1.place(x=0,y=0)
 root.mainloop()
