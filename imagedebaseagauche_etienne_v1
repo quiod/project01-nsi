@@ -7,7 +7,7 @@ root.geometry("1080x720")
 
 image = Image.open("emplacemnt de la photo, en png de préférence")
 
-resize_image = image.resize((540,int((540/image.size[0])*image.size[1])))
+resize_image = image.resize((500,int((500/image.size[0])*image.size[1])))
 
 img = ImageTk.PhotoImage(resize_image)
 
