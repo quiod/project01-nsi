@@ -1,0 +1,21 @@
+[CR]
+choisir image fichier
+insert nouvelle image qui est la meme
+creer barre en bas pour bouton => background grey
+recherche possibiliter PIL
+list bouton necessaire :
+-negatif
+-ombrage
+-noir et blanc
+-copie image droite a gauche
+-filtre rouge
+-flou
+-bouton ouvrir image
+-telecharger image transformer
+-mirroir
+-rotate left
+-rotate right
+-(cut une partie de l'image)
+-(dessiner dessus)
+j'ai fais le bouton negatif mais problème d'execution => problème regler en enlevant l'argument
+décision de mettre tt les fct bouton au debut
