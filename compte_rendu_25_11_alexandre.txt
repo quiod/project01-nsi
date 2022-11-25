@@ -6,3 +6,4 @@ recherche sur la fonction de remplacement de l'image de gauche par celle de droi
 Tentatives : 
 -sauvegarder l'image modifiée puis la réimporter pour la transformer en objet tkinter et pouvoir la placer dans le label1 : problème car image modifiée est un objet tkinter.
 implémentation des niveaux de gris avec le bouton noircir : formule à appliquer pour trouver les niveaux de gris ici  : https://www.dcode.fr/image-niveaux-gris
+correction du souci avec le bouton négatif : il est désormais possible de revenir à l'image de base en appliquant le négatif sur l'image négative.
