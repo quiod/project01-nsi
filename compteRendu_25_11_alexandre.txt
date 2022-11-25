@@ -1,0 +1,4 @@
+reflexion sur la liste des boutons avec etienne 
+recherche et analyse de programmes à utiliser avec amaury
+recherche du moyen d'utiliser la fonction "negatif" avec le bouton correspondant
+mise au point sur la place et la taille des éléments dans la page
