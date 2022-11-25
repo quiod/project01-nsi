@@ -2,3 +2,7 @@ reflexion sur la liste des boutons avec etienne
 recherche et analyse de programmes à utiliser avec amaury
 recherche du moyen d'utiliser la fonction "negatif" avec le bouton correspondant
 mise au point sur la place et la taille des éléments dans la page
+recherche sur la fonction de remplacement de l'image de gauche par celle de droite : problème sur le stockage de l'image modifiée.
+Tentatives : 
+-sauvegarder l'image modifiée puis la réimporter pour la transformer en objet tkinter et pouvoir la placer dans le label1 : problème car image modifiée est un objet tkinter.
+implémentation des niveaux de gris avec le bouton noircir
