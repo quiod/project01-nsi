@@ -30,7 +30,7 @@ label2 = Label(image=img)
 label2.image = img
 
 label1.place(x=0,y=0)
-label2.place(x=580,y=0)
+label2.place(x=520,y=0)
 
 
 #fonction qui met la deuxieme image en negatif
