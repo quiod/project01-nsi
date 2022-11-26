@@ -1,0 +1,7 @@
+tentative d'implémentation du bouton contraste :https://www.docstring.fr/formations/le-traitement-dimages-avec-python/changer-la-saturation-le-contraste-la-nettete-et-la-luminosite-533/?tab=qandr
+découverte d'un problème : les fonctions "negatif" et "noircir" ne peuvent pas effectuer leur tâche avec une définition d'image trop grande.
+idée d'implémentation : pouvoir modifier seulement une partie de l'image (cela ne sera pas forcément dans la version finale, c'est une simple idée)
+avancée sur le problème : le problème est dû non pas à une image trop grande, mais aux pixels de l'image : il semblerait que les images problématiques ne contiennent pas trois
+canaux de couleur (rouge, vert et bleu) mais un autre nombre inconnu, ce qui expliquerait l'affichage de cette erreur : "too many values to unpack (expected 3)"
+le problème semble se poser sur des images au format ".png". recherche des différences entre png et jpg : le format png prend en charge la transparence, c'est peut-être ce qui
+pose problème
