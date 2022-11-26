@@ -1,0 +1,1 @@
+tentative d'implémentation du bouton contraste :https://www.docstring.fr/formations/le-traitement-dimages-avec-python/changer-la-saturation-le-contraste-la-nettete-et-la-luminosite-533/?tab=qandr
