@@ -3,9 +3,9 @@ list bouton necessaire :
 -contraste v
 -noir et blanc v
 -copie image droite a gauche v
--filtre rouge
--flou
--bouton ouvrir image
+-filtre multicolor
+-flou v
+-bouton ouvrir image v
 -telecharger image transformer
 -mirroir
 -rotate left
