@@ -14,7 +14,7 @@ def interchangement():
     label2 = Label(image=img)
     label2.image = img
     label2.place(x=580,y=0)
-    
+
 def negatif():
     global stacked
     stock = stacked
@@ -28,7 +28,7 @@ def negatif():
     label2.image = stock2
     label2.place(x=580,y=0)
     stacked = stock
-    
+
 def noircir():
     global stacked
     stock = stacked
@@ -43,7 +43,7 @@ def noircir():
     label2.image = stock2
     label2.place(x=580,y=0)
     stacked = stock
-    
+
 def contraste(x):
     global stacked
     stock = ImageEnhance.Color(stacked).enhance(int(x))
@@ -53,10 +53,16 @@ def contraste(x):
     label2.place(x=580,y=0)
     stacked = stock
 
+def oulf():
+    global stacked
+    l=[]
+    for x in range(10):
+        l.append(stacked.filter(ImageFilter.BoxBlur(int(x))))
+    return l
+
 def flou(x):
     global stacked
-    stock = stacked.filter(ImageFilter.BoxBlur(int(x)))
-    stock2=ImageTk.PhotoImage(stock)
+    stock2=ImageTk.PhotoImage(oulf()[int(x)])
     label2 = Label(image=stock2)
     label2.image = stock2
     label2.place(x=580,y=0)
