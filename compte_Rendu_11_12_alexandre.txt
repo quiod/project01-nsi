@@ -1,3 +1,5 @@
 Recherche pour la sauvegarde de l'élément, trouvé dans cette vidéo : https://www.youtube.com/watch?v=FShKBCoGeQg
 Recherches sur askdirectory() : https://www.delftstack.com/howto/python-tkinter/askdirectory-method-in-tkinter/
 Résolution du problème des fichiers PNG en obligeant à l'utilisateur d'utiliser des fichiers JPG.
+Création du bouton enregistrer sous à l'aide de ce tutoriel, initialement prévu pour les textes, que j'ai adapté aux images: https://www.youtube.com/watch?v=B_8KSeKzC1o
+Quelques soucis subsistent, nottament par rapport aux curseurs de flou et de contraste.
