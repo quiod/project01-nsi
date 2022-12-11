@@ -1,0 +1,3 @@
+Recherche pour la sauvegarde de l'élément, trouvé dans cette vidéo : https://www.youtube.com/watch?v=FShKBCoGeQg
+Recherches sur askdirectory() : https://www.delftstack.com/howto/python-tkinter/askdirectory-method-in-tkinter/
+Résolution du problème des fichiers PNG en obligeant à l'utilisateur d'utiliser des fichiers JPG.
