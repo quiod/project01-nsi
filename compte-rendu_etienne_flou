@@ -1,0 +1,8 @@
+regler probleme flou
+n'arrive pas car le stacked ne le prend pas en compte donc a chaque modif ca enleve le flou
+ou a chaque flou ca enleve la modif
+creation d'une list pour enregistrer les 10 stade de flou => idée trouver sur un forum
+appler avec le curseur
+mettre a jour la list a chaque modif => solution 
+par contre double modif de flou pas possible
+  pas grave
