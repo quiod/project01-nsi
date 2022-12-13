@@ -1,0 +1,13 @@
+chercher a creer une boite de dialogue qui s'affiche quand on clique sur flou ou contraste
+recherche sur internet pour des boite de dialogue temporaire
+idee de creer le label pour le detruire just après
+aide du site : https://www.tutorialspoint.com/deleting-a-label-in-python-tkinter
+mise en place du bouton et de la fonction
+besoin d'un formule pour attendre
+utilisation de la biblioteque "time"
+finalement pas besoin, utilisation : labelT.after(10000, labelT.destroy())
+abandon car marche pas
+decide alors de fair cliquer sur un bouton l'utilisateur pour le fair disparaitre
+bouton apparait dans la premier fonction et active une deuxieme
+qui supprime le tout
+transformation du bouton en fonction pour le reinitialiser a chaque modif
