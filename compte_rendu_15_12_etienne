@@ -1,0 +1,18 @@
+je vais esssayer de fair le curseur qui marche pour constraste pareil que pour flou
+probleme de modif avec negatif => oublie de reactualiser le list de contraste
+je trouve que le contraste est trop extreme
+essai de mettre un facteur reducteur mais ca marche pas
+abandonne et met sur 5
+finalement remet sur 10 car sinon ca change la largeur du curseur
+
+creation bouton mirroir
+utilisation du modele de la fonction "flip" => marche
+
+nouvelle idée pour le curseur contraste, fair commencer la list avec des contraste de 3 mais toujours divisé par deux
+ca marche
+
+convert png into jpg car png bug a cause de la transparence, notamment sur
+l'effet 'inverte'
+solution trouver ici : https://www.geeksforgeeks.org/convert-an-image-into-jpg-format-using-pillow-in-python/
+et en cherchant j'ai trouver un attribut ".format" qui donne l"extention d'une fichier et donc 
+je l'ai mis en condition pour modifier le png en jpg, tout probleme regler
