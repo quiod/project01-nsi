@@ -1,0 +1,3 @@
+j'ai chercher une fonction flip pour la photo
+j'ai utilisé le meme model de fonction que les autre
+et utiliser la fonction : PIL.ImageOps.flip(stock)
