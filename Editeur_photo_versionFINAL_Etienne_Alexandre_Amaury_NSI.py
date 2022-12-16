@@ -209,7 +209,7 @@ image = Image.open(askopenfilename(title="Ouvrir l'image à modifier"))
 
 #conversion si png
 if image.format=='PNG':
-    image = image.convert("RGB")
+    image = image.convert("RGB") #convertion png en jpg car bug avec les png car les png on une 4eme variable en plus de RDB, une variable "transparence" que nous ne geront pas
 
 #création du label contenant l'image de gauche, sur laquelle appliquer les modifications
 resize_image = image.resize((500,int((500/image.size[0])*image.size[1]))) #reajustement de l'image par rapport au support
